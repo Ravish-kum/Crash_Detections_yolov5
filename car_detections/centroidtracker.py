@@ -70,9 +70,7 @@ class CentroidTracker(TrackingOperations):
         #print('here count',count)
         
         if count <= 2:
-            print("Ss",center_pt_current_frame)
-            print("gmae",center_pt_previous_frame)
-
+            
             for pt in center_pt_current_frame:
                 for pt2 in center_pt_previous_frame:
                     distance = math.sqrt(math.pow((pt2[0] -pt[0]),2)+math.pow(( pt2[1] - pt[1]),2))

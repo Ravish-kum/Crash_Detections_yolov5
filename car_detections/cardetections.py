@@ -5,7 +5,7 @@ from centroidtracker import CentroidTracker
 ct = CentroidTracker()
 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s') 
-video_path = 'C:\\Users\\ravis\\OneDrive\\Desktop\\Crash_Detections_yolov5\\video8.mp4'
+video_path = 'C:\\Users\\ravis\\OneDrive\\Desktop\\Crash_Detections_yolov5\\video11.mp4'
 cap = cv2.VideoCapture(video_path)
 
 speed_factor = 1    # speed factor for adjusting speed of frames to be detected
